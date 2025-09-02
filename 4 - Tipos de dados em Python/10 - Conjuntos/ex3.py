@@ -1,0 +1,17 @@
+from ex1 import female_penguin_species, male_penguin_species
+
+# Find the union: all_species
+all_species = female_penguin_species.union(male_penguin_species)
+
+# Print the count of names in all_species
+print(len(all_species))
+
+# Find the intersection: overlapping_species
+overlapping_species = female_penguin_species.intersection(male_penguin_species)
+
+# Print the count of species in overlapping_species
+print(len(overlapping_species))
+
+'''
+O código acima demonstra o uso de operações com conjuntos em Python. Ele calcula a união e a interseção de dois conjuntos de espécies de pinguins, imprimindo o número total de espécies únicas e o número de espécies que aparecem em ambos os conjuntos.
+'''
